@@ -1,0 +1,21 @@
+body {
+    background: #f8f9fa;
+}
+.hero {
+    padding: 60px 0;
+    background: linear-gradient(90deg, #007bff 0%, #6c757d 100%);
+    color: #fff;
+    text-align: center;
+}
+.service-card {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    border: none;
+}
+.form-section {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
