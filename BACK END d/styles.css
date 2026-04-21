@@ -1,0 +1,12 @@
+/* Custom styles for landing page and form */
+:root{--hero-bg:#0d6efd}
+body{font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+.hero{background: linear-gradient(90deg, rgba(13,110,253,0.9), rgba(58,123,213,0.85)); padding:80px 0;}
+.hero h1{font-weight:600}
+.hero p{opacity:0.95}
+.card{border:0}
+footer{border-top:1px solid rgba(0,0,0,0.05)}
+
+/* Form spacing */
+#signupForm{max-width:560px}
+@media (max-width:576px){.hero{padding:40px 0}.container{padding:0 16px}}
